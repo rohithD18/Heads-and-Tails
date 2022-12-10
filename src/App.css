@@ -1,0 +1,38 @@
+body {
+  text-align: center;
+  background-color: #282c34;
+  color: white;
+}
+.App-header {
+ margin-top: 50px;
+}
+
+button{
+  height: 40px;
+  width: 85px;
+  border-radius: 10px;
+  background-color: rgba(26, 26, 173, 0.822);
+  border: none;
+  font-size: large;
+  color: white;
+}
+.dataValues{
+  display: flex;
+  justify-content: center;
+}
+.items{
+  background-color: antiquewhite;
+  color: #282c34;
+  padding: 10px 0px; 
+  border-radius: 5px;
+  margin: 5px;
+  cursor: pointer;
+}
+.items:hover{
+  background: #61dafb;
+}
+#selectOne{
+  width: 180px;
+  border-radius: 10px;
+  padding: 8px;
+}
